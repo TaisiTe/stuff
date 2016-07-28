@@ -20,7 +20,7 @@ import scipy.io as sio
 import skimage.io
 import os
 
-caffe_root = 'C:\\Users\\nouser\\Downloads\\caffe-master\\caffe-master\\'
+caffe_root = '~\\caffe\\caffe-master\\'
 
 import sys
 sys.path.insert(0, caffe_root + 'python')
