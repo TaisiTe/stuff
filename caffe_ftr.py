@@ -110,7 +110,7 @@ def extract_feature(network_proto_path,
     #network_proto_path, network_model_path = network_path
 
     net = caffe.Classifier(network_proto_path, network_model_path)
-    caffe.set_phase_test()
+    
 
     net.set_mode_gpu()
 
