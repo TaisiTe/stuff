@@ -25,7 +25,7 @@
 # CUSTOM_CXX := g++
 
 # CUDA directory contains bin/ and lib/ directories that we need.#
-CUDA_DIR := /usr/local/cuda
+# CUDA_DIR := /usr/local/cuda
 # On Ubuntu 14.04, if cuda tools are installed via
 # "sudo apt-get install nvidia-cuda-toolkit" then use this instead:
 # CUDA_DIR := /usr
@@ -62,7 +62,7 @@ BLAS := atlas
 # NOTE: this is required only if you will compile the python interface.
 # We need to be able to find Python.h and numpy/arrayobject.h.
 PYTHON_INCLUDE := /usr/include/python2.7 \
-		/usr/lib/python2.7/dist-packages/numpy/core/include
+		/usr/lib64/python2.7/site-packages/numpy
 # Anaconda Python distribution is quite popular. Include path:
 # Verify anaconda location, sometimes it's in root.
 # ANACONDA_HOME := $(HOME)/anaconda
