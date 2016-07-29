@@ -1,6 +1,6 @@
 import os
 
-f = open('~/face/data/img_name.txt', 'w')
+f = open('~/face/data/stuff/img_name.txt', 'w')
 
 d=4
 for person in range(25):
