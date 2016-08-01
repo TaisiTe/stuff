@@ -110,7 +110,9 @@ def extract_feature(network_proto_path,
     #network_proto_path, network_model_path = network_path
 
     net = caffe.Classifier(network_proto_path, network_model_path)
+    caffe.set_phase_test()
 
+    caffe.set_mode_cpu()
     # input preprocessing: 'data' is the name of the input blob == net.inputs[0]
     #net.set_mean('data', caffe_root + 'python/caffe/imagenet/ilsvrc_2012_mean.npy')  # ImageNet mean
     net.set_mean('data', data_mean)
