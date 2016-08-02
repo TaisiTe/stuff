@@ -20,7 +20,7 @@ import scipy.io as sio
 import skimage.io
 import os
 
-caffe_root = '//home//icv//Downloads//caffe-master//'
+caffe_root = '\\opt\\caffe'
 
 import sys
 sys.path.insert(0, caffe_root + 'python')
