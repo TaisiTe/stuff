@@ -1,1 +1,0 @@
-/opt/caffe/data/4242414-face.jpg person
